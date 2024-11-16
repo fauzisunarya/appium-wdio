@@ -1,0 +1,139 @@
+[90m2024-11-16T06:14:26.295Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
+  userName: '[REDACTED]',
+  accessKey: '[REDACTED]',
+  event_type: 'SDKTestAttempted',
+  detectedFramework: 'WebdriverIO-mocha',
+  event_properties: {
+    language_framework: 'WebdriverIO_mocha',
+    referrer: 'WebdriverIO-mocha/9.2.12',
+    language: 'WebdriverIO',
+    languageVersion: 'v20.15.0',
+    buildName: 'undefined',
+    buildIdentifier: 'undefined',
+    os: 'Windows_NT',
+    hostname: 'GL503VD',
+    productMap: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    },
+    product: [ 'observability', 'app-automate' ]
+  }
+}
+[90m2024-11-16T06:14:26.821Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel Event Response: "{\"message\":\"SDK Event recorded successfully\"}"
+[90m2024-11-16T06:14:26.821Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel event success
+[90m2024-11-16T06:14:26.822Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Using app: bs://sample.app
+[90m2024-11-16T06:14:26.823Z[39m [33mWARN[39m [97m@wdio/browserstack-service[39m Skipping buildIdentifier as buildName is not passed.
+[90m2024-11-16T06:14:26.824Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending launch start event
+[90m2024-11-16T06:14:27.883Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [Start_Build] Success response: {"observability":{"success":true,"options":{"allow_screenshots":true},"code":null,"errors":null,"error_trace_id":null},"accessibility":null,"automate":null,"build_hashed_id":"lkikreqjmepy865to2kmaapkv9lqtb9kxuxqrark","jwt":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiI5MDA2NDc4IiwiZ3JvdXBfaWQiOjg5MTc3MzksInVzZXJfaWQiOjkwMDY0NzgsImJ1aWxkX2hhc2hlZF9pZCI6ImxraWtyZXFqbWVweTg2NXRvMmttYWFwa3Y5bHF0YjlreHV4cXJhcmsiLCJob29rX2FzX3Rlc3QiOiIxIiwiYnVpbGRfbmFtZSI6IldlYmRyaXZlcklPIiwicHJvZHVjdF9tYXAiOiJ7XCJvYnNlcnZhYmlsaXR5XCI6dHJ1ZSxcInByb2R1Y3RGaWx0ZXJTb3VyY2VcIjp0cnVlLFwiY2FkXCI6dHJ1ZSxcIm9yaWdpbkZyb21Qcm9kdWN0TWFwXCI6XCJBcHBBdXRvbWF0ZVwiLFwiYnN0YWNrQXV0b21hdGlvblwiOnRydWUsXCJhcHBfYXV0b21hdGVcIjp0cnVlfSIsImdycl9yZWdpb24iOiIiLCJzaWduaW5nX2tleV9oYXNoIjoiN2RmNmU2ODNjNjcwOTFiNmJjYWI0OTVlM2Y3ZjJhYTE2OWM3NWYzMWZiYWZhNTBmNDcwMjRjODFiOWU3MDUzZCIsImlhdCI6MTczMTczNzY2OCwiZXhwIjoxNzMyMDgzMjY4fQ.XeCD-nienDVKaysyx3TNlEwwcysvAQBZlFreMLKNHT8","app_automate":{"success":true,"options":{"allow_screenshots":true},"code":null,"errors":null,"error_trace_id":null}}
+[90m2024-11-16T06:14:35.172Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Browserstack Local successfully started after 6953.2044000000005ms
+[90m2024-11-16T06:14:57.973Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Requesting Browserstack session URL at https://api-cloud.browserstack.com/app-automate/sessions/d500091ea691b1f934e5b13cd3395b9a97a27421.json
+[90m2024-11-16T06:14:58.600Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Requesting Browserstack session URL at https://api-cloud.browserstack.com/app-automate/sessions/258a8c8edabd42ef52a20cd08a7958c289f2be48.json
+[90m2024-11-16T06:14:58.629Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m  session: https://app-automate.browserstack.com/builds/3e20bf5da8de106a624a89ec79ec25ebba6c1d19/sessions/d500091ea691b1f934e5b13cd3395b9a97a27421
+[90m2024-11-16T06:14:58.634Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId d500091ea691b1f934e5b13cd3395b9a97a27421
+[90m2024-11-16T06:14:58.635Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/d500091ea691b1f934e5b13cd3395b9a97a27421.json with request body: 
+[90m2024-11-16T06:14:59.133Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
+[90m2024-11-16T06:14:59.133Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
+[90m2024-11-16T06:14:59.217Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m  session: https://app-automate.browserstack.com/builds/3e20bf5da8de106a624a89ec79ec25ebba6c1d19/sessions/258a8c8edabd42ef52a20cd08a7958c289f2be48
+[90m2024-11-16T06:14:59.222Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId 258a8c8edabd42ef52a20cd08a7958c289f2be48
+[90m2024-11-16T06:14:59.223Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/258a8c8edabd42ef52a20cd08a7958c289f2be48.json with request body: 
+[90m2024-11-16T06:14:59.943Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
+[90m2024-11-16T06:14:59.943Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
+[90m2024-11-16T06:15:00.240Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Requesting Browserstack session URL at https://api-cloud.browserstack.com/app-automate/sessions/bdfe50c0f521c676dae02e21965039728c6b0ae4.json
+[90m2024-11-16T06:15:00.869Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m  session: https://app-automate.browserstack.com/builds/3e20bf5da8de106a624a89ec79ec25ebba6c1d19/sessions/bdfe50c0f521c676dae02e21965039728c6b0ae4
+[90m2024-11-16T06:15:00.874Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId bdfe50c0f521c676dae02e21965039728c6b0ae4
+[90m2024-11-16T06:15:00.874Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/bdfe50c0f521c676dae02e21965039728c6b0ae4.json with request body: 
+[90m2024-11-16T06:15:01.288Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
+[90m2024-11-16T06:15:01.288Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
+[90m2024-11-16T06:15:03.060Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Inside OnComplete hook..
+[90m2024-11-16T06:15:03.060Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
+[90m2024-11-16T06:15:04.158Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [STOP_BUILD] Success response: 
+[90m2024-11-16T06:15:04.159Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Reading worker file worker-data-15000.json
+[90m2024-11-16T06:15:04.160Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Reading worker file worker-data-18404.json
+[90m2024-11-16T06:15:04.160Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Reading worker file worker-data-18964.json
+[90m2024-11-16T06:15:04.165Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
+  userName: '[REDACTED]',
+  accessKey: '[REDACTED]',
+  event_type: 'SDKTestSuccessful',
+  detectedFramework: 'WebdriverIO-mocha',
+  event_properties: {
+    language_framework: 'WebdriverIO_mocha',
+    referrer: 'WebdriverIO-mocha/9.2.12',
+    language: 'WebdriverIO',
+    languageVersion: 'v20.15.0',
+    buildName: 'undefined',
+    buildIdentifier: 'undefined',
+    os: 'Windows_NT',
+    hostname: 'GL503VD',
+    productMap: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    },
+    product: [ 'observability', 'app-automate' ],
+    productUsage: {
+      testObservability: {
+        enabled: true,
+        manuallySet: false,
+        buildHashedId: 'lkikreqjmepy865to2kmaapkv9lqtb9kxuxqrark',
+        events: {
+          buildEvents: {
+            started: { isTriggered: true, status: 'success', error: undefined },
+            finished: { isTriggered: true, status: 'success', error: undefined }
+          },
+          testEvents: {
+            started: { triggeredCount: 0, sentCount: 0, failedCount: 0 },
+            finished: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
+          },
+          hookEvents: {
+            started: { triggeredCount: 0, sentCount: 0, failedCount: 0 },
+            finished: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
+          },
+          logEvents: { triggeredCount: 0, sentCount: 0, failedCount: 0 },
+          cbtSessionEvents: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
+        }
+      }
+    }
+  }
+}
+[90m2024-11-16T06:15:04.528Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel Event Response: "{\"message\":\"SDK Event recorded successfully\"}"
+[90m2024-11-16T06:15:04.528Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel event success
+[90m2024-11-16T06:15:04.534Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Error in firing request https://upload-observability.browserstack.com/client-logs/upload: TypeError: fetch failed
+    at node:internal/deps/undici/undici:12502:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async nodeRequest (file:///E:/Neuron/Testing%20Mobile/Project/WebdriverIO/node_modules/@wdio/browserstack-service/build/index.js:925:22)
+    at async uploadLogs (file:///E:/Neuron/Testing%20Mobile/Project/WebdriverIO/node_modules/@wdio/browserstack-service/build/index.js:1783:20)
+    at async BrowserstackLauncherService._uploadServiceLogs (file:///E:/Neuron/Testing%20Mobile/Project/WebdriverIO/node_modules/@wdio/browserstack-service/build/index.js:3289:22)
+    at async BrowserstackLauncherService.onComplete (file:///E:/Neuron/Testing%20Mobile/Project/WebdriverIO/node_modules/@wdio/browserstack-service/build/index.js:3162:7)
+    at async file:///E:/Neuron/Testing%20Mobile/Project/WebdriverIO/node_modules/@wdio/cli/build/index.js:1207:9
+    at async Promise.all (index 0)
+    at async Launcher.run (file:///E:/Neuron/Testing%20Mobile/Project/WebdriverIO/node_modules/@wdio/cli/build/index.js:2285:7) {
+  [cause]: InvalidArgumentError: invalid content-length header
+      at processHeader (node:internal/deps/undici/undici:6447:17)
+      at new Request (node:internal/deps/undici/undici:6285:15)
+      at [dispatch] (node:internal/deps/undici/undici:9077:25)
+      at Intercept (node:internal/deps/undici/undici:8812:20)
+      at [Intercepted Dispatch] (node:internal/deps/undici/undici:5673:16)
+      at Client.dispatch (node:internal/deps/undici/undici:5689:44)
+      at [dispatch] (node:internal/deps/undici/undici:5920:32)
+      at [Intercepted Dispatch] (node:internal/deps/undici/undici:5666:33)
+      at Pool.dispatch (node:internal/deps/undici/undici:5689:44)
+      at [dispatch] (node:internal/deps/undici/undici:9499:27) {
+    code: 'UND_ERR_INVALID_ARG'
+  }
+}
+[90m2024-11-16T06:15:04.534Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Failed to fire api request due to TypeError: fetch failed - TypeError: fetch failed
+    at node:internal/deps/undici/undici:12502:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async nodeRequest (file:///E:/Neuron/Testing%20Mobile/Project/WebdriverIO/node_modules/@wdio/browserstack-service/build/index.js:925:22)
+    at async uploadLogs (file:///E:/Neuron/Testing%20Mobile/Project/WebdriverIO/node_modules/@wdio/browserstack-service/build/index.js:1783:20)
+    at async BrowserstackLauncherService._uploadServiceLogs (file:///E:/Neuron/Testing%20Mobile/Project/WebdriverIO/node_modules/@wdio/browserstack-service/build/index.js:3289:22)
+    at async BrowserstackLauncherService.onComplete (file:///E:/Neuron/Testing%20Mobile/Project/WebdriverIO/node_modules/@wdio/browserstack-service/build/index.js:3162:7)
+    at async file:///E:/Neuron/Testing%20Mobile/Project/WebdriverIO/node_modules/@wdio/cli/build/index.js:1207:9
+    at async Promise.all (index 0)
+    at async Launcher.run (file:///E:/Neuron/Testing%20Mobile/Project/WebdriverIO/node_modules/@wdio/cli/build/index.js:2285:7)
+[90m2024-11-16T06:15:04.534Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Response - undefined
