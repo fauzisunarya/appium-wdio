@@ -16,22 +16,22 @@ class RegisterPage{
     }
 
     get btnDaftar(){
-        return $('id:btn-daftar');
+        return $('~Daftar');
     }
     get inputNomorHP () {
-        return $('id:field-nomor-hp');
+        return $("-android uiautomator:new UiSelector().resourceId(\"field-nomor-hp\")");
     }
 
     get inputEmail () {
-        return $('id:field-email');
+        return $("-android uiautomator:new UiSelector().resourceId(\"field-email\")");
     }
 
     get inputPassword () {
-        return $('id:field-password');
+        return $("-android uiautomator:new UiSelector().resourceId(\"field-password\")");
     }
 
     get btnSelanjutnya () {
-        return $('id:btn-selanjutnya');
+        return $('~Selanjutnya');
     }
 
     get classText(){

@@ -19,20 +19,17 @@ exports.config = {
         deviceName: 'Samsung Galaxy S22 Ultra',
         platformVersion: '12.0',
         platformName: 'android',
-        disableIdLocatorAutocompletion: true,
       }
     }, {
       'bstack:options': {
         deviceName: 'Google Pixel 7 Pro',
         platformVersion: '13.0',
         platformName: 'android',
-        disableIdLocatorAutocompletion: true,
       } }, {
       'bstack:options': {
         deviceName: 'OnePlus 9',
         platformVersion: '11.0',
         platformName: 'android',
-        disableIdLocatorAutocompletion: true,
       }
     }],
     commonCapabilities: {

@@ -13,7 +13,7 @@ config.capabilities = [{
     'appium:deviceName': 'Android GoogleAPI Emulator',
     'appium:platformVersion': '11.0',
     'appium:automationName': 'UiAutomator2',
-    "appium:disableIdLocatorAutocompletion": true,
+    // "appium:disableIdLocatorAutocompletion": true,
     // 'appium:app': path.join(process.cwd(),'\\app\\apidemos.apk')
 }]
 
