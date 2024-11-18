@@ -1,4 +1,5 @@
 exports.config = {
+    
     //
     // ====================
     // Runner Configuration
@@ -56,7 +57,7 @@ exports.config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'info',
+    logLevel: 'debug',
     //
     // Set specific log levels per logger
     // loggers:
@@ -83,7 +84,7 @@ exports.config = {
     // baseUrl: 'http://localhost:8080',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 10000,
+    waitforTimeout: 60000,
     //
     // Default timeout in milliseconds for request
     // if browser driver or grid doesn't send response
@@ -120,8 +121,21 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec'],
-
+    reporters: ['spec',
+        ['video', {
+          saveAllVideos: true,       // If true, also saves videos for successful test cases
+          videoSlowdownMultiplier: 3,
+          videoFormat: 'mp4',
+          // Higher to get slower videos, lower for faster videos [Value 1-100]
+        }],
+        ['allure', {
+          outputDir: 'allure-results',
+          disableWebdriverStepsReporting: true,
+          disableWebdriverScreenshotsReporting: true,
+        }],
+      ],
+    
+    
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
     mochaOpts: {
@@ -223,8 +237,11 @@ exports.config = {
      * @param {boolean} result.passed    true if test has passed, otherwise false
      * @param {object}  result.retries   information about spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
-    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
-    // },
+    afterTest: async function(test, context, { error, result, duration, passed, retries }) {
+        if (error) {
+            await browser.takeScreenshot();
+        }
+    },
 
 
     /**

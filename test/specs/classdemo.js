@@ -8,7 +8,7 @@ describe('suite', () => {
         const className = await $('android.widget.EditText')
         const text = className.getText()
         console.log(text)
-        expect(await className.getText()).toHaveText('Search or type web address')
+        expect(await className.getText()).toHaveText('Swawa')
     })
 })
 

@@ -8,4 +8,4 @@ class ChromeObjects{
 
     }
 }
-module.exports = ChromeObjects();
+module.exports = ChromeObjects;
