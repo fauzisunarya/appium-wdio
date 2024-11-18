@@ -4,7 +4,7 @@ const registerPage = new RegisterPage();
 
 describe('Register PGN Mobile', () => {
     it('register user sudah terdaftar', async () => {
-        await registerPage.openPGN.click()
+        // await registerPage.openPGN.click()
         await registerPage.permissionFirst.click()
         await registerPage.permissionTwo.click()
         await registerPage.permissionThree.click()
